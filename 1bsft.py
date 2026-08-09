@@ -31,7 +31,7 @@ from torch.amp import GradScaler, autocast
 # ============================================================
 # 0. AUTH & CONFIG
 # ============================================================
-HF_TOKEN = os.environ.get("")
+HF_TOKEN = os.environ.get("I")
 if HF_TOKEN:
     login(token=HF_TOKEN)
 else:
